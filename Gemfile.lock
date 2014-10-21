@@ -35,11 +35,7 @@ GEM
       execjs
     coffee-script-source (1.8.0)
     erubis (2.7.0)
-<<<<<<< HEAD
-    execjs (2.2.2)
-=======
     execjs (2.2.1)
->>>>>>> f173be3d4c21198e8771100abc1f06c753905237
     hike (1.2.3)
     i18n (0.6.11)
     jbuilder (1.5.3)
@@ -100,11 +96,7 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-<<<<<<< HEAD
-    turbolinks (2.4.0)
-=======
     turbolinks (2.3.0)
->>>>>>> f173be3d4c21198e8771100abc1f06c753905237
       coffee-rails
     tzinfo (0.3.41)
     uglifier (2.5.3)
