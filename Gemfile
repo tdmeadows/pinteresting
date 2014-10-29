@@ -9,6 +9,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.1.0.rc2'
+gem 'paperclip', github: 'thoughtbot/paperclip'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
