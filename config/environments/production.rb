@@ -81,4 +81,12 @@ Pinteresting::Application.configure do
   # Set to Actual Hostname
   config.action_mailer.default_url_options = { :host => 'http://boiling-forest-1042.herokuapp.com/' }
 
+  config.paperclip_defaults = {
+  :storage => :s3,
+  :s3_credentials => {
+    :bucket => ENV['AWS_BUCKET'],
+    :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
+    :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
+  }
+}
 end
